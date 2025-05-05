@@ -33,7 +33,6 @@ Support multiple browser sessions via a `sessionId`. Each action must operate wi
     {
       "browser": "chromium",
       "headless": true,
-      // add more config parameters
     }
     ```
 
@@ -120,7 +119,6 @@ Each action endpoint should return:
 
 - No frontend UI
 - No authentication or rate limiting
-- No persistent storage for sessions
 - No saving of screenshots (return as base64 only)
 
 ---
